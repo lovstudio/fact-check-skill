@@ -1,4 +1,4 @@
-# lovstudio:fact-check
+# lovstudio-fact-check
 
 ![Version](https://img.shields.io/badge/version-0.1.0-CC785C)
 
@@ -30,7 +30,7 @@ ln -s ../../.agents/skills/lovstudio-fact-check ~/.claude/skills/lovstudio-fact-
 在 Claude Code 中触发：
 
 ```text
-/lovstudio:fact-check
+/lovstudio-fact-check
 ```
 
 也可以自然语言触发：

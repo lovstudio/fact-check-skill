@@ -12,13 +12,15 @@ compatibility: >
   Instruction-only skill. Requires web/search access when the claim depends on
   current, external, niche, or source-attributed facts. No local runtime
   dependencies.
+depends_on:
+  - lov-branding-consistency
 metadata:
   author: contributors
-  version: "0.2.0"
+  version: "0.2.1"
   tags: fact-check verification research due-diligence source-check
 ---
 
-# fact-check — 尽调式事实校验
+# 事实核查员 · Fact Checker
 
 用这个 skill 回答事实真伪问题时，不要直接凭记忆下结论。你要模拟一个认真真人的尽调路径：先澄清命题，拆成可验证子问题，优先查一手资料，再用独立来源交叉验证，最后把证据、推断和不确定性分开写清楚。
 
